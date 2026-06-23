@@ -40,7 +40,7 @@ A vintage rock-themed interactive drum kit — designed in Figma, built from scr
 The drum kit UI was designed entirely in Figma before a single line of code was written.
 
 ### Desktop prototype — Smart Animate transitions
-[![Figma Desktop Prototype](assets/figma-desktop.png)](https://www.figma.com/design/82nIBSMCDUaB5qrIe7JvNR/Untitled?node-id=40-45&t=IRq4ywXqFJASTtr5-1)
+[![Figma Desktop Prototype](https://github.com/MeghaMuskan/rock-and-roll-drum-kit/blob/main/assests/figma-desktop.png)](https://www.figma.com/design/82nIBSMCDUaB5qrIe7JvNR/Untitled?node-id=40-45&t=IRq4ywXqFJASTtr5-1)
 
 *Each pad has hover and pressed states connected with Smart Animate — this prototype was the spec for the CSS `pressed` animation timings.*
 
