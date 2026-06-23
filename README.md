@@ -45,7 +45,7 @@ The drum kit UI was designed entirely in Figma before a single line of code was 
 *Each pad has hover and pressed states connected with Smart Animate — this prototype was the spec for the CSS `pressed` animation timings.*
 
 ### Drum Kit component layout
-[![Figma Component Layout](assets/figma-functional.png)](https://www.figma.com/proto/82nIBSMCDUaB5qrIe7JvNR/Untitled?node-id=40-45&t=RIIJriUcxfNioYeK-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1)
+[![Figma Component Layout](assests/figma-functional.png)](https://www.figma.com/proto/82nIBSMCDUaB5qrIe7JvNR/Untitled?node-id=40-45&t=RIIJriUcxfNioYeK-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1)
 
 *7 reusable `DrumPad` components, each with its own accent color — translated directly into CSS custom properties (`--tom1-accent`, `--snare-accent` etc.)*
 
