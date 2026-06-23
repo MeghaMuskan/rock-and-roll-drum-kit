@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock &amp; Roll Drum Kit</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- LANDING PAGE -->
+  <section id="landing">
+
+    <div class="scratch-overlay"></div>
+    <div id="vinyl-stage"></div>
+
+    <div class="landing-content">
+      <div class="star-row" aria-hidden="true">
+        <span class="star">★</span>
+        <span class="star">★</span>
+        <span class="star">★</span>
+        <span class="star">★</span>
+        <span class="star">★</span>
+      </div>
+
+      <p class="welcome-text">— welcome to —</p>
+
+      <h1>
+        Rock<br>
+        <span class="amp">&amp;</span><br>
+        Roll
+      </h1>
+
+      <div class="badge" aria-hidden="true">
+        <div class="badge-ring">
+          <div class="badge-inner">
+            <span class="badge-text">EST.<br>1955<br>★★★</span>
+          </div>
+        </div>
+      </div>
+
+      <p class="tagline">Hit hard. Play loud. Feel it.</p>
+
+      <button id="cta-btn" onclick="startShow()">
+        Ready to Rock &amp; Roll
+      </button>
+
+      <p class="key-hint">click above to enter the stage</p>
+    </div>
+
+  </section>
+
+  <!-- VINYL TRANSITION OVERLAY -->
+  <div id="vinyl-overlay" aria-hidden="true">
+    <svg class="big-vinyl" width="220" height="220" viewBox="0 0 220 220">
+      <circle cx="110" cy="110" r="108" fill="#0f0f0f"/>
+      <circle cx="110" cy="110" r="96" fill="none" stroke="#1e1e1e" stroke-width="2"/>
+      <circle cx="110" cy="110" r="82" fill="none" stroke="#1e1e1e" stroke-width="2"/>
+      <circle cx="110" cy="110" r="68" fill="none" stroke="#1e1e1e" stroke-width="2"/>
+      <circle cx="110" cy="110" r="54" fill="none" stroke="#1e1e1e" stroke-width="2"/>
+      <circle cx="110" cy="110" r="40" fill="none" stroke="#1e1e1e" stroke-width="2"/>
+      <circle cx="110" cy="110" r="30" fill="#e8d5a0"/>
+      <circle cx="110" cy="110" r="26" fill="#e8350a"/>
+      <circle cx="110" cy="110" r="8"  fill="#0f0f0f"/>
+      <circle cx="110" cy="110" r="3"  fill="#e8d5a0"/>
+    </svg>
+  </div>
+
+  <!-- DRUM KIT PAGE -->
+  <section id="drum-section" aria-label="Drum kit">
+
+    <div class="scratch-overlay"></div>
+
+    <header class="drum-header">
+      <div class="star-row" aria-hidden="true">
+        <span class="star small">★</span>
+        <span class="star small">★</span>
+        <span class="star small">★</span>
+      </div>
+      <h2>Hit the Kit</h2>
+      <p class="drum-sub">— click pads or press keyboard keys —</p>
+    </header>
+
+    <!-- TOP ROW: 4 toms -->
+    <div class="drum-row" id="row-top">
+      <button class="drum tom1" data-key="w" aria-label="Tom 1 - press W">
+        <div class="waveform" id="wf-w"></div>
+        <span class="key-letter">W</span>
+        <span class="pad-label">Tom 1</span>
+      </button>
+      <button class="drum tom2" data-key="a" aria-label="Tom 2 - press A">
+        <div class="waveform" id="wf-a"></div>
+        <span class="key-letter">A</span>
+        <span class="pad-label">Tom 2</span>
+      </button>
+      <button class="drum tom3" data-key="s" aria-label="Tom 3 - press S">
+        <div class="waveform" id="wf-s"></div>
+        <span class="key-letter">S</span>
+        <span class="pad-label">Tom 3</span>
+      </button>
+      <button class="drum tom4" data-key="d" aria-label="Tom 4 - press D">
+        <div class="waveform" id="wf-d"></div>
+        <span class="key-letter">D</span>
+        <span class="pad-label">Tom 4</span>
+      </button>
+    </div>
+
+    <!-- BOTTOM ROW: snare, crash, kick -->
+    <div class="drum-row" id="row-bottom">
+      <button class="drum snare" data-key="j" aria-label="Snare - press J">
+        <div class="waveform" id="wf-j"></div>
+        <span class="key-letter">J</span>
+        <span class="pad-label">Snare</span>
+      </button>
+      <button class="drum crash" data-key="k" aria-label="Crash cymbal - press K">
+        <div class="waveform" id="wf-k"></div>
+        <span class="key-letter">K</span>
+        <span class="pad-label">Crash</span>
+      </button>
+      <button class="drum kick" data-key="l" aria-label="Kick bass - press L">
+        <div class="waveform" id="wf-l"></div>
+        <span class="key-letter">L</span>
+        <span class="pad-label">Kick</span>
+      </button>
+    </div>
+
+    <div class="key-map" aria-label="Keyboard shortcuts">
+      <span>W</span><span>A</span><span>S</span><span>D</span>
+      <span class="sep">·</span>
+      <span>J</span><span>K</span><span>L</span>
+    </div>
+
+    <footer>
+      Made with ❤️ in India &nbsp;★&nbsp; Keep It Classic
+    </footer>
+
+  </section>
+
+  <script src="index.js" charset="UTF-8"></script>
+
+</body>
+</html>
